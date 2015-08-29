@@ -1,0 +1,44 @@
+
+body {background-color: #F1F2F3;}
+.wrapper{width:1004px;margin: 0 auto;}
+
+#header-banner {height: 50px;line-height: 50px;background-color:#343A3A;color:white;}
+#header-banner .blank-logo{width:200px;height:50px;background: url(../image/register/logo-blank.png) no-repeat left 6px;}
+#header-banner .banner-link{cursor: pointer;font-size:14px;font-weight: normal;}
+#header-banner .banner-division{margin:0 40px;}
+#header-banner a{color:#7E7E7D}
+#header-banner a:hover{color:#FB8A25;}
+
+#main .reg-step-cont { margin-bottom:120px;}
+#main .reg-step-header{ height: 130px;}
+#main .reg-step-content { background-color: #FEFFFF;padding-top:50px;}
+#main .reg-step1-cont .reg-step-header{ background: url(../image/register/st1.png) no-repeat -10px 14px;}
+#main .reg-step2-cont .reg-step-header{ background: url(../image/register/st2.png) no-repeat -67px 15px;}
+#main .reg-step3-cont .reg-step-header{ background: url(../image/register/st3.png) no-repeat -34px 16px;}
+
+/* 第一步 */
+#main .reg-step1-cont .reg-step-content dl { height:60px;color:#767778;}
+#main .reg-step1-cont .reg-step-content dl dt{ float: left;height: 50px;line-height: 50px;width:200px;text-align: right;font-size:14px;}
+#main .reg-step1-cont .reg-step-content dl dt span.must{ color:#F95720;margin-left:10px;}
+#main .reg-step1-cont .reg-step-content dl dd{ float: left;height: 50px;line-height: 50px;padding-left:15px;padding-right: 5px;}
+#main .reg-step1-cont .reg-step-content dl dd input{ width:435px;height: 35px;line-height: 35px;border-radius: 5px;border: solid 1px #E3E4E5;padding-left:5px;}
+#main .reg-step1-cont .reg-step-content .tips-ok{ background: url(../image/register/reg-res.png) no-repeat left -3px;padding-left: 40px;}
+#main .reg-step1-cont .reg-step-content .tips-err{ background: url(../image/register/reg-res.png) no-repeat left -62px;padding-left: 40px;}
+#main .reg-step1-cont .reg-step-content .tips-err{ background: url(../image/register/reg-res.png) no-repeat left -62px;padding-left: 40px;}
+#main .reg-step1-cont .reg-step-content .submit-btn-cont{ padding-left:215px;padding-top:50px;height: 180px;}
+#main .reg-step1-cont .reg-step-content .submit-btn-cont button{ vertical-align: middle;display: inline-block;width: 190px;height:44px;background-color:#FB8525;border: 0;border-radius: 3px;color:white;font-size:24px;}
+#main .reg-step1-cont .reg-step-content .submit-btn-cont span{ vertical-align: middle;display: inline-block;height: 44px;line-height: 44px;margin-left: 20px;}
+#main .reg-step1-cont .reg-step-content .submit-btn-cont span a{ color:#1DA4FC;}
+#main .reg-step1-cont .reg-step-content .smscode-cont input{width:153px;display: inline-block;vertical-align: middle;}
+#main .reg-step1-cont .reg-step-content .smscode-cont span{display: inline-block;vertical-align: middle;height: 35px;line-height:35px;}
+#main .reg-step1-cont .reg-step-content .smscode-cont span.phone-icon{width:35px;background:url(../image/register/mob-phone.png) no-repeat 0px -12px;}
+#main .reg-step1-cont .reg-step-content .smscode-cont span.get-smscode{color:#737475;background-color: #E0E1E2;border-radius: 3px;padding-left:15px;padding-right:15px;font-size: 14px;cursor: pointer;}
+/* 第二步 */
+#main .reg-step2-cont .reg-step-content .reg-step2-top { height:100px;margin-top:130px;padding-left: 360px;font-size: 16px;font-weight: bold;color:#2A75B8;border-bottom:1px dotted #C7C8C9;background:url(../image/register/reg-ok.png) no-repeat 210px -25px;}
+#main .reg-step2-cont .reg-step-content .reg-step2-bottom { height:336px;margin-top:38px;line-height:20px;padding-left: 360px;font-size: 14px;color:#757677;}
+/* 第三步 */
+#main .reg-step3-cont .reg-step-content .reg-step3{ padding-left:360px;height: 400px;margin-top:130px;font-size: 14px;}
+#main .reg-step3-cont .reg-step-content .reg-step3 .verify-ok{ font-weight: bold;color:#2A75B8;font-size: 24px;}
+
+#footer {height: 40px;border-top:1px solid #B9BABB;color:#868788;}
+#footer .footer-content{text-align: right;height:40px;background:url(../image/register/logo-footer.png) no-repeat 956px -6px;padding-right: 50px;}

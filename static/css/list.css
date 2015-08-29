@@ -1,0 +1,86 @@
+
+#main .main-left .cat-header{height: 100px;background: url(../image/cat-title-bg.jpg) no-repeat center center;border-bottom: 1px dotted #d8d8d8;}
+
+/* 分类列表 */
+.cat-type-list li {height: 48px;line-height: 45px;border-bottom: 1px dotted #d8d8d8;font-size: 14px;}
+.cat-type-list li .inner{padding-left: 50px;width: 260px;font-weight: bold;}
+.cat-type-list li.current .inner{position: relative;z-index: 1;padding-left: 50px;margin-top:1px;width: 260px;font-weight: bold;background: url(../image/cat-item-bg.png) no-repeat 1px -32px;}
+.cat-type-list li.current a{font-weight: bold;}
+.cat-type-icon {display: inline-block;width: 48px;height: 48px;background-image: url(../image/cat-item-icons.png);background-repeat: no-repeat;}
+.cat-type-icon:after{content: '.';visibility: hidden;}
+/* 分类类型－icon */
+.cat-type-news{background-position: 0px -7px;}
+.cat-type-ent{background-position: 0px -55px;}
+.cat-type-fun{background-position: 0px -103px;}
+.cat-type-tour{background-position: 0px -151px;}
+.cat-type-foods{background-position: 0px -199px;}
+.cat-type-finance{background-position: 0px -247px;}
+.cat-type-health{background-position: 0px -295px;}
+.cat-type-manage{background-position: 0px -343px;}
+.cat-type-emotion{background-position: 0px -391px;}
+.cat-type-gov{background-position: 0px -439px;}
+.cat-type-beauty{background-position: 0px -487px;}
+.cat-type-car{background-position: 0px -535px;}
+.cat-type-building{background-position: 0px -583px;}
+.cat-type-fashion{background-position: 0px -631px;}
+.cat-type-tech{background-position: 0px -679px;}
+.cat-type-games{background-position: 0px -727px;}
+.cat-type-history{background-position: 0px -775px;}
+.cat-type-famous{background-position: 0px -823px;}
+.cat-type-film{background-position: 0px -871px;}
+.cat-type-carton{background-position: 0px -919px;}
+.cat-type-company{background-position: 0px -967px;}
+.cat-type-local{background-position: 0px -1015px;}
+.cat-type-photo{background-position: 0px -1063px;}
+.cat-type-parent{background-position: 0px -1111px;}
+.cat-type-life{background-position: 0px -1159px;}
+.cat-type-sex{background-position: 0px -1207px;}
+.cat-type-hot{background-position: 0px -1253px;}
+.cat-type-wemedia{background-position: 0px -1304px;}
+.cat-type-keephealth{background-position: 0px -1346px;}
+
+#main .main-right-header{ height: 100px;}
+#main .main-right-header .update-time-con{line-height: 100px;}
+#main .main-right-header .search-con{width: 482px;height: 40px;line-height:32px;margin-right:32px;margin-top: 30px;border:solid 4px #D1D1D1;border-radius:2px;background-color: #D1D1D1;}
+#main .main-right-header .search-con input{width: 396px;height: 32px;line-height:32px;border: 0;padding-left:10px;}
+#main .main-right-header .search-con button{width: 72px;height: 32px;line-height:32px;border:0;border-radius:2px;background: url(../image/search-btn.png) no-repeat -6px -6px;}
+
+#main .main-right-body table{  width:729px;}
+#main .main-right-body table thead td,#main .main-right-body table tbody td,#main .main-right-body table tfoot td{ border-bottom: 1px dotted #d8d8d8; text-align: center;}
+#main .main-right-body table thead tr:hover,#main .main-right-body table tbody tr:hover,#main .main-right-body table tbody tr:hover{ background: #fafafa}
+#main .main-right-body table thead tr{ color: #777777; height: 51px; line-height: 51px}
+#main .main-right-body table tbody tr{ line-height: 95px; height: 95px}
+#main .main-right-body table tbody tr td.on{ background:url(../image/head.png) 21px 37px no-repeat}
+#main .main-right-body table tbody tr td.off{ background:url(../image/head_3.png) 21px 37px no-repeat}
+#main .main-right-body table tbody tr td img,#main .main-right-body table tbody tr td span{ float: left; display: block;}
+#main .main-right-body table tbody td.head{ position: relative;}
+#main .main-right-body table tbody td.head span.ico_bg{ width: 34px; height: 34px; display: block; background: url(../image/ico_bg.png) no-repeat; position: absolute; top: 22px; left: 4px}
+#main .main-right-body table tbody td.head span.img_span{ display:inline-block;width:28px;height:28px;left:7px;top:1px;z-index:0}
+#main .main-right-body table tbody td.head span.en{ width: 110px; height: 13px; text-align:left;display: block; position: absolute; top:-10px; left: 40px; color: #bdbdbd;  }
+#main .main-right-body table tbody td.head span.ch{ width:140px; height:17px; display: block; position: absolute; top:20px; left: 5px; color: #777777;font-weight: bold;text-align: left;;}
+#main .main-right-body table tbody td.detail span{ width: 57px; height: 27px; display: block; background: #e8e8e8; border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; line-height: 27px; }
+#main .main-right-body table tbody td.detail span a{ color: #777777}
+#main .main-right-body table tbody td.detail span a:hover{ color:#dd7e2a; font-weight: bold} 
+#main .main-right-body table tbody td.fansN{ color: #ff861b}
+#main .main-right-body table tbody td.publishN{ color: #8a8a8a}
+#main .main-right-body table tbody td.readN{  color: #ff861b ; background: url(../image/add.png) 53px 40px no-repeat;}
+#main .main-right-body table tbody td.zanN{ color: #ff861b; background: url(../image/zan.png) 73px 40px no-repeat;}
+#main .main-right-body table tbody td.rateN{ color: #6cbe6e; background: url(../image/up.png) 60px 40px no-repeat;}
+#main .main-right-body table tbody td.multi1 p{ height: 20px;line-height: 20px;}
+#main .main-right-body table tbody td.multi2 p{ height: 20px;line-height: 20px;}
+
+#main .main-right-body table tbody tr td.rank_no_bg1{color:#FC9A4E;background:url(../image/rank-no-1.png) 7px 31px no-repeat}
+#main .main-right-body table tbody tr td.rank_no_bg2{color:#20B8F6;background:url(../image/rank-no-2.png) -1px 26px no-repeat}
+#main .main-right-body table tbody tr td.rank_no_bg3{color:#6FBC71;background:url(../image/rank-no-3.png) -5px 31px no-repeat}
+#main .main-right-body table tbody tr td.rank_no_bgN{color:#B9B9B9;background:url(../image/rank-no-N.png) 3px 23px no-repeat}
+
+
+#main .main-right-body .pager-bar{ width:400px;height: 25px; margin:50px auto;}
+#main .main-right-body .pager-bar li{ border: 1px solid #dcdcdc; border-radius:3px; -moz-border-radius:3px; -wekit-border-radius:3px; float: left; height: 23px; width: 18px; margin-right: 7px; text-align: center; line-height:23px }
+#main .main-right-body .pager-bar li:hover{ background: #ff861b; border:1px solid #ff861b ;color:white;}
+#main .main-right-body .pager-bar li.current{ background: #ff861b; border:1px solid #ff861b ;color:white;}
+#main .main-right-body .pager-bar li.current a, .main-right-body .pager-bar li:hover a{ color:white;}
+#main .main-right-body .pager-bar li.priv{ width: 50px; }
+#main .main-right-body .pager-bar li.next{ width: 50px; }
+
+
